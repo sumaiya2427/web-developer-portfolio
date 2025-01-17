@@ -1,6 +1,15 @@
 /*Nav Styles*/
 nav {
   display: flex;
+  margin-top: 0px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.header {
+  background-image: url(/images/developer.png), url(/images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  height: 800px;
 }
 /*shared style*/
 .text-primary {
@@ -18,15 +27,59 @@ nav ul a {
   font-size: 20px;
 }
 .dark-2 {
-  color: rgba(125, 125, 125, 0.926);
+  color: rgba(86, 80, 80, 0.811);
 }
-.heder {
+.nav-section {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin: 50px 200px;
 }
 .heder-felex2 ul {
   display: flex;
   justify-content: space-between;
   gap: 40px;
+}
+.btn-primary {
+  background-color: orange;
+  font-weight: bold;
+  font-size: 20px;
+  color: aliceblue;
+  width: 120px;
+  height: 50px;
+  padding: 18 px 35px;
+  border-radius: 5px;
+  border: none;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+/* banner style{} */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 35px 0px 235px;
+}
+.banner-content {
+  max-width: 580px;
+}
+.banner-greetings {
+  font-size: 45px;
+  font-weight: 600px;
+}
+.banner-tittle {
+  font-weight: 900;
+  font-size: 45px;
+}
+.banner-description {
+  font-size: 18px;
+  color: rgba(86, 80, 80, 0.811);
+}
+.banner-profile-pic {
+  width: 573px;
+}
+.button {
+  display: flex;
+  gap: 10px;
 }
